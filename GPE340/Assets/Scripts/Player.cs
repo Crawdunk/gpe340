@@ -2,27 +2,63 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
     [SerializeField, Tooltip("The max speed of the player")]
     private float speed;
-
+    public bool hasWeapon;
+    public GameObject equippedWeapon;
+    public Health health;
+    public HealthBar healthBar;
     private Animator animator;
 
     private Vector3 targetPos; //Set all this stuff
     private Vector3 startPos;
     private Vector3 mousePos;
 
+    [Header("Weapons")]
+    public Weapon weapon;
+
+
     private void Awake()
     {
         animator = GetComponent<Animator>(); //Grab the animator on our player
+    }
+
+    private void Start()
+    {
+        hasWeapon = true;
+        equippedWeapon = GameObject.FindWithTag("Weapon");
+        healthBar.SetMaxHealth(health.maxHealth);
     }
 
     private void Update()
     {
         animator.SetFloat("Forward", Input.GetAxis("Vertical"));
         animator.SetFloat("Right", Input.GetAxis("Horizontal")); //Set the animator bools of Forward and Right to the V/H axis
+
+        //Look at mouse
+        Plane playerPlane = new Plane(Vector3.up, transform.position);
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        float hitDist = 0.0f;
+        
+        if(playerPlane.Raycast(ray, out hitDist))
+        {
+            Vector3 targetPoint = ray.GetPoint(hitDist);
+            Quaternion targetRotation = Quaternion.LookRotation(targetPoint - transform.position);
+            targetRotation.x = 0;
+            targetRotation.z = 0;
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 7f * Time.deltaTime);
+
+        }
+
+        Vector3 input = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+        input = Vector3.ClampMagnitude(input, 1f);
+        input = transform.InverseTransformDirection(input);
+        animator.SetFloat("Right", input.x);
+        animator.SetFloat("Forward", input.z);
 
         //Sprinting
         if (Input.GetKey(KeyCode.LeftShift))
@@ -38,28 +74,44 @@ public class Player : MonoBehaviour
             animator.SetBool("isSprinting", false);
         }
 
-        Vector3 input = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
-        input = Vector3.ClampMagnitude(input, 1f);
-        input = transform.InverseTransformDirection(input);
-        animator.SetFloat("Right", input.x);
-        animator.SetFloat("Forward", input.z); //Grabbed this from the lecture, prevents the player from moving towards where they are looking
-
-        mousePos = Input.mousePosition; //grab the mouses position
-        Ray mouseCast = Camera.main.ScreenPointToRay(mousePos); //make a raycast on where my mouse is currently at
-        Plane groundPlane = new Plane(Vector3.up, Vector3.zero);
-        RaycastHit hit;
-        float rayLength;
-        if (Physics.Raycast(mouseCast, out hit, 100))
+        if (health.currentHealth >= 100)
         {
-            Debug.DrawLine(mousePos, targetPos, Color.blue);
-            targetPos = new Vector3(hit.point.x, 0f, hit.point.z);
-
-            // We need some distance margin with our movement
-            // or else the character could twitch back and forth with slight movement
-            if (Vector3.Distance(targetPos, transform.position) >= 2f)
-            {
-                transform.LookAt(targetPos);
-            }
+            health.currentHealth = 100;
+            healthBar.SetMaxHealth(health.maxHealth);
         }
+
+        if (health.currentHealth <= 0)
+        {
+            SceneManager.LoadScene(0);
+            Debug.Log("You Died.");
+        }
+
+        if (Input.GetButtonDown("Fire1"))
+        {
+            weapon.AttackStart();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            health.TakeDamage(10);
+        }
+
+    }
+
+    public void OnAnimatorIK(int layerIndex)
+    {
+        if (hasWeapon == true)
+        {
+            animator.SetIKPosition(AvatarIKGoal.LeftHand, weapon.leftHandPoint.position);
+            animator.SetIKPosition(AvatarIKGoal.RightHand, weapon.rightHandPoint.position);
+            animator.SetIKRotation(AvatarIKGoal.LeftHand, weapon.leftHandPoint.rotation);
+            animator.SetIKRotation(AvatarIKGoal.RightHand, weapon.rightHandPoint.rotation);
+
+            animator.SetIKPositionWeight(AvatarIKGoal.LeftHand, 1f);
+            animator.SetIKPositionWeight(AvatarIKGoal.RightHand, 1f);
+            animator.SetIKRotationWeight(AvatarIKGoal.LeftHand, 1f);
+            animator.SetIKRotationWeight(AvatarIKGoal.RightHand, 1f);
+        }
+        
     }
 }
