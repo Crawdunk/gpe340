@@ -1,0 +1,1343 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.4f1 (becced5a802b) revision 12504301'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 18363.1440; Version 1909; 64bit' Language: 'en' Physical Memory: 32685 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/gagep/OneDrive/Documents/REPO/gpe340/GPE340
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53262
+Successfully changed project path to: C:/Users/gagep/OneDrive/Documents/REPO/gpe340/GPE340
+C:/Users/gagep/OneDrive/Documents/REPO/gpe340/GPE340
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 17.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.4f1 (becced5a802b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/gagep/OneDrive/Documents/REPO/gpe340/GPE340/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   
+    VRAM:     8043 MB
+    Driver:   27.21.14.6109
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001359 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 17.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.733 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000472 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.572 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.7 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1562.
+Total: 1.411400 ms (FindLiveObjects: 0.124000 ms CreateObjectMapping: 0.041300 ms MarkObjects: 1.103900 ms  DeleteObjects: 0.141500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(570335812a2a2c243a78dd0ea18425b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(570335812a2a2c243a78dd0ea18425b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdcf9e27ad6bca51fe7739da094841c') in 0.016491 seconds
+  Import took 0.102541 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000422 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.526 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1564.
+Total: 1.124500 ms (FindLiveObjects: 0.096000 ms CreateObjectMapping: 0.030000 ms MarkObjects: 0.947200 ms  DeleteObjects: 0.050600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000436 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.519 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 58.6 MB.
+System memory in use after: 58.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1566.
+Total: 1.074000 ms (FindLiveObjects: 0.092600 ms CreateObjectMapping: 0.030200 ms MarkObjects: 0.904500 ms  DeleteObjects: 0.045700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 924.894969 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4fc54c8a975884cbaf3fe7f149c11d') in 0.120117 seconds
+  Import took 0.206688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.283440 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(4421c435045058f458dae07100a9ef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(4421c435045058f458dae07100a9ef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00de43077b3da1e2b19dce2bade850a1') in 0.004878 seconds
+  Import took 0.006260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004092 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(4421c435045058f458dae07100a9ef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(4421c435045058f458dae07100a9ef05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00de43077b3da1e2b19dce2bade850a1') in 0.001931 seconds
+  Import took 0.003298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.040724 seconds.
+  path: Assets/Scenes/Off-Mesh Showcase.unity
+  artifactKey: Guid(688ded7b2ac9f7d4786170fc31c285ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Off-Mesh Showcase.unity using Guid(688ded7b2ac9f7d4786170fc31c285ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1450fc3926ab0cdb0f3defe9ab9e01c2') in 0.005860 seconds
+  Import took 0.011878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 705.464419 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37607605fc4b796cc3dc72f407e55a06') in 0.042973 seconds
+  Import took 0.045847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.751323 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833b01b0a75c8da35bf92f276c8815ca') in 0.041209 seconds
+  Import took 0.056286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025976 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833b01b0a75c8da35bf92f276c8815ca') in 0.038871 seconds
+  Import took 0.041489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.655206 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba94130a71a74c43f66f1c87cbd6df7') in 0.039959 seconds
+  Import took 0.054761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.446163 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9287462a7367fb9c61b75d92ad55ce73') in 0.040993 seconds
+  Import took 0.052868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.015338 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52992a1aa9ee9dc41d35f9158516adb4') in 0.039788 seconds
+  Import took 0.138528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.313857 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a3a67baa4dd152f4fe5430f62c88f9') in 0.040140 seconds
+  Import took 0.042861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.530949 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d40f10106a1130def3758e1df0d93f') in 0.040608 seconds
+  Import took 0.054292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.179211 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f9979bdb5d2af6f2383d5fdd150eae') in 0.006217 seconds
+  Import took 0.031347 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000510 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.524 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.0 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1576.
+Total: 1.098500 ms (FindLiveObjects: 0.103600 ms CreateObjectMapping: 0.027900 ms MarkObjects: 0.919200 ms  DeleteObjects: 0.046900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.673986 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7842d7a23c435ef3af61d24bc660d07e') in 0.075353 seconds
+  Import took 0.077934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.039505 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7a7099864d139de06923ee15163516') in 0.043239 seconds
+  Import took 0.046141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.376845 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9aa555c5ee19abea43b2868b21907c') in 0.041306 seconds
+  Import took 0.057233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.530195 seconds.
+  path: Assets/Scripts/RagdollController.cs
+  artifactKey: Guid(5e4ed781ea8fa1b41bc51798339bc99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RagdollController.cs using Guid(5e4ed781ea8fa1b41bc51798339bc99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd700d2b0b58479f039bea71d1777cbd1') in 0.005198 seconds
+  Import took 0.019508 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000436 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.528 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.1 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1580.
+Total: 1.314800 ms (FindLiveObjects: 0.195100 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.030300 ms  DeleteObjects: 0.051100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 346.153166 seconds.
+  path: Assets/Scripts/RagdollController.cs
+  artifactKey: Guid(5e4ed781ea8fa1b41bc51798339bc99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RagdollController.cs using Guid(5e4ed781ea8fa1b41bc51798339bc99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b593ea7c335873d38b54a57d9136c7d') in 0.004921 seconds
+  Import took 0.006645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000729 seconds.
+  path: Assets/Scripts/RagdollController.cs
+  artifactKey: Guid(5e4ed781ea8fa1b41bc51798339bc99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RagdollController.cs using Guid(5e4ed781ea8fa1b41bc51798339bc99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b593ea7c335873d38b54a57d9136c7d') in 0.002097 seconds
+  Import took 0.003481 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000469 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.530 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.1 MB.
+System memory in use after: 76.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1582.
+Total: 1.175400 ms (FindLiveObjects: 0.099700 ms CreateObjectMapping: 0.025100 ms MarkObjects: 0.997000 ms  DeleteObjects: 0.052600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 333.666090 seconds.
+  path: Assets/Scripts/RagdollController.cs
+  artifactKey: Guid(5e4ed781ea8fa1b41bc51798339bc99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RagdollController.cs using Guid(5e4ed781ea8fa1b41bc51798339bc99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfc93c1e6e9ca606d87bec7d8426fba') in 0.005374 seconds
+  Import took 0.015870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.645597 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8ceb695f341a68a4976085d19bf735') in 0.076427 seconds
+  Import took 0.079279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.524169 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcec576df7a87013861eea79e4a8269') in 0.041329 seconds
+  Import took 0.054712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.955755 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01508fd4922dea182d58ac646cc7c354') in 0.039748 seconds
+  Import took 0.042411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.547416 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b654777b332d9a7c1cd6862935e1a19') in 0.041580 seconds
+  Import took 0.044430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.359181 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c327e84cb8206920ee8881c57471168') in 0.040053 seconds
+  Import took 0.049080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.178281 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3a7a850016ef08601c4b100bddfdf2') in 0.040557 seconds
+  Import took 0.043268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.552238 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af94d807dc258fe4e2877dccd4319d32') in 0.039698 seconds
+  Import took 0.042386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.366891 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '307eab475764745217edf1b59601c695') in 0.040826 seconds
+  Import took 0.043578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.573704 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5118a6ede50d8f665fa618e3891881e') in 0.039947 seconds
+  Import took 0.042708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.223794 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ead08a2bf82076dc23ca78042fdea5') in 0.040437 seconds
+  Import took 0.043166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.773480 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24feaf2ace24c0af2a271e7613f5bb8f') in 0.040008 seconds
+  Import took 0.042717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.753007 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea4236dd4626f4f68f46e7138dde53c') in 0.041050 seconds
+  Import took 0.054926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.355358 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bddaa8242bd886dff16d145c078650') in 0.040183 seconds
+  Import took 0.043085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.757613 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c125a39f147aba5dd709240620c80b7') in 0.039323 seconds
+  Import took 0.051917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.238177 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31889541d3ec0bf32b23af78331028a') in 0.039557 seconds
+  Import took 0.042430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.852447 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbc3cb88a89857109f59db446fa89aa') in 0.039936 seconds
+  Import took 0.042725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.256215 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d1df48e4929b414a2645da9cbc5cdd') in 0.038948 seconds
+  Import took 0.042051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.114568 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16c9b4a89985e70870aef3991ca2aae') in 0.041409 seconds
+  Import took 0.050529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.599163 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf83c0b5095d5caa35fe18a2f9860a0') in 0.039867 seconds
+  Import took 0.042605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.229121 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1baed6b9aee794a32dbc7829ab5d50') in 0.040217 seconds
+  Import took 0.043019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.852325 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ec71def2706b4cedf1f767bb96f8d5') in 0.039884 seconds
+  Import took 0.056345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.407532 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7f812be1ba30d6565b07eddc4f15d4') in 0.039822 seconds
+  Import took 0.042571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.633189 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b21fb7c1ca42067b4e71b16756f97af') in 0.039040 seconds
+  Import took 0.041820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.929114 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df97d95f7df62f777c40a2cbedd0eda') in 0.040271 seconds
+  Import took 0.054049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.374300 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7085e35efc197bd0b6caa1a3dfc86e6') in 0.039614 seconds
+  Import took 0.042316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.209414 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c0dd4aaaf266f93436479f4254e680') in 0.041040 seconds
+  Import took 0.055469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.609231 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6bcd03f46561fa05d1ecf31864eedb') in 0.039316 seconds
+  Import took 0.042075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.458621 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53dd2df6ebe95607ca9fb9b37b783cf6') in 0.039109 seconds
+  Import took 0.041827 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000501 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.532 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.7 MB.
+System memory in use after: 76.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1585.
+Total: 1.089200 ms (FindLiveObjects: 0.097600 ms CreateObjectMapping: 0.025200 ms MarkObjects: 0.920700 ms  DeleteObjects: 0.044900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.740953 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca0af5fcd7b9d5fc8f6d0aeec054582') in 0.073906 seconds
+  Import took 0.076532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.717251 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b6199557f4b75691ccfc7426237202') in 0.039923 seconds
+  Import took 0.047057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.546819 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c3786049c40cc12a9cccda7b96a47ee') in 0.039356 seconds
+  Import took 0.042020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.625969 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548e0e963876ba745cc2779fed7730c8') in 0.040937 seconds
+  Import took 0.043727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102088 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc16e43e5660dabb34b73f96e4f3c1a') in 0.039486 seconds
+  Import took 0.042181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.565457 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aaa0dd9e4814945b4d26c180a9b6f79') in 0.039331 seconds
+  Import took 0.042021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.201743 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614b3d17ecc8d880c48add740268546c') in 0.039024 seconds
+  Import took 0.041714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.737613 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e2ee28d7841f1d37671e47f58599b2') in 0.038544 seconds
+  Import took 0.042119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.161228 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c70937f3fd01310f428b8dcb194946') in 0.038901 seconds
+  Import took 0.041623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.560425 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee87d2998a88d6a15ceed184e5dc41d') in 0.039224 seconds
+  Import took 0.041979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.970542 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd6891270c05958689658614e92c740') in 0.039795 seconds
+  Import took 0.051575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.557559 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bd0ffc1ae4c7d7a66127bb8d427cf7f') in 0.038369 seconds
+  Import took 0.041133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.355011 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869001c6cb2fc76c52efa3adcb81d92c') in 0.038477 seconds
+  Import took 0.041201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.437780 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72dcfed0788f7569ddcb33f83aae8a50') in 0.039102 seconds
+  Import took 0.041850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.422148 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2225998f64f45f11cb7098b5bf4b35') in 0.040071 seconds
+  Import took 0.042916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.787117 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a482356870bfd76687b146125e115669') in 0.040265 seconds
+  Import took 0.043311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.273367 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e827aac26c6baac784c7d2dc1e76f8') in 0.039208 seconds
+  Import took 0.042169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.173916 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0bce813709f6789c2ce0a558b2cb68') in 0.039220 seconds
+  Import took 0.041919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.438553 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c32c18d2ef7ed55e53155a2be9e76c') in 0.039110 seconds
+  Import took 0.052134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.205109 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13ce66dd11a9a07eb3a393d1b1aa272') in 0.041661 seconds
+  Import took 0.044610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.825736 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65c6d98db6354d389f264645f334e5d') in 0.040372 seconds
+  Import took 0.049663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.383915 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c43c1c472ad568ed1089ae9491c2c8') in 0.038806 seconds
+  Import took 0.041512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.214339 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70fb6bf2a6b5ad7a518d411d2d7f333') in 0.039501 seconds
+  Import took 0.042341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.668170 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de213ff01faf793b814767a25f96a40f') in 0.039421 seconds
+  Import took 0.042195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.800042 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dcce7083f50517089a17fa10c6bf1b1') in 0.039496 seconds
+  Import took 0.042217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.572382 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918d9edea4b0431cfa48e285ef4d8902') in 0.038943 seconds
+  Import took 0.041696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.504385 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e07a582e49394bcf20e43633533b826') in 0.038748 seconds
+  Import took 0.041496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.984402 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e829778571a5f691b66755d4904099') in 0.039001 seconds
+  Import took 0.136986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.093872 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46689cc97e85cb064fe4310a72b71e44') in 0.039399 seconds
+  Import took 0.042123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.964461 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0020c4711412327cef7cb6da08f73691') in 0.039247 seconds
+  Import took 0.042062 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000486 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.521 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.0 MB.
+System memory in use after: 77.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1588.
+Total: 1.104800 ms (FindLiveObjects: 0.095100 ms CreateObjectMapping: 0.024600 ms MarkObjects: 0.932600 ms  DeleteObjects: 0.051700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.426452 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608e9eef8a43d0ead0c52ea1c794e4e5') in 0.073388 seconds
+  Import took 0.075991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.496603 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6109469ab155b84231074c8f53cfb1a3') in 0.038979 seconds
+  Import took 0.041673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.384710 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aca60724e8f2b34af58f847e32ed119') in 0.043311 seconds
+  Import took 0.052651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.401136 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4a5c288e3e4cb871643721aa5c6196') in 0.039393 seconds
+  Import took 0.042104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.250675 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0adab22b324eaafcf0182d9998c8fad') in 0.039918 seconds
+  Import took 0.042740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.377175 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5651865268bb8dfb23b34c08bbe0521d') in 0.038919 seconds
+  Import took 0.041627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.572130 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f730438296c059b5d23519d5e6c87a') in 0.038863 seconds
+  Import took 0.041543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.555625 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d4fb9ea1998636b3e5d15abbc282ba') in 0.038159 seconds
+  Import took 0.040878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.631708 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ec95adca8bad7e0784982c9ace00dc') in 0.040920 seconds
+  Import took 0.043669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.584728 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f348a5b6e39c64e7caaa4644e439deff') in 0.039600 seconds
+  Import took 0.042529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.461009 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae54accc3940a0700f8e66b6fa94207') in 0.039811 seconds
+  Import took 0.042659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.178719 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b330e15a0b73885693705f13ce3807') in 0.041134 seconds
+  Import took 0.044039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.913371 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1772f147245f8e5e357de2e9ca83b097') in 0.039127 seconds
+  Import took 0.041962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.439386 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef443d919c7f77e9f8e95d622cc854a') in 0.040163 seconds
+  Import took 0.043026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.186272 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722d8cf2f693ea8f3db32de7de822e54') in 0.039940 seconds
+  Import took 0.042690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.842156 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ced9b44f3bc1cc0bf9154d6853a4794') in 0.039549 seconds
+  Import took 0.042388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.430611 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0092d01760066227cd111569b0921f55') in 0.039888 seconds
+  Import took 0.042721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.177537 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7102d0aa54f02ef146120bd537e3fcb') in 0.038752 seconds
+  Import took 0.041547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.414575 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1fbbd386c8e798dad48f4b6f1c3e4a5') in 0.039642 seconds
+  Import took 0.042387 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000477 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.522 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 77.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1591.
+Total: 1.126000 ms (FindLiveObjects: 0.099400 ms CreateObjectMapping: 0.027600 ms MarkObjects: 0.946900 ms  DeleteObjects: 0.051200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 193.725890 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da64b445ac09737891027928fb60705') in 0.073562 seconds
+  Import took 0.076262 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000455 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.523 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 77.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1594.
+Total: 1.090800 ms (FindLiveObjects: 0.092200 ms CreateObjectMapping: 0.028400 ms MarkObjects: 0.923500 ms  DeleteObjects: 0.046000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000474 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.523 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.1 MB.
+System memory in use after: 77.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1596.
+Total: 1.152800 ms (FindLiveObjects: 0.112500 ms CreateObjectMapping: 0.031100 ms MarkObjects: 0.956600 ms  DeleteObjects: 0.051700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 374.049726 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6ab9a1960a25ef3a401a62e922f8d7') in 0.072341 seconds
+  Import took 0.094973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.955714 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f517344ee9c6fb4e440ccb20b4e4c4bf') in 0.040639 seconds
+  Import took 0.043384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.809714 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5dc54b8612f70166fc5db9887d218c') in 0.038884 seconds
+  Import took 0.054723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.881340 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97deb9a611d79a0335ee9a0a39180607') in 0.039992 seconds
+  Import took 0.042852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.555848 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def7e2f3d16dabc948b78b82e1e35707') in 0.039161 seconds
+  Import took 0.041890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.368655 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e699485661390f28c24cb664517fbb6f') in 0.038038 seconds
+  Import took 0.040756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.363288 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efeff2e941c97226d5b3f21c37ad5791') in 0.038967 seconds
+  Import took 0.041717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.360812 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f229463e38886ac9d1e3002593d589') in 0.039438 seconds
+  Import took 0.042191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.777184 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93149fc63c9f5b97cf12279e559f22c') in 0.038350 seconds
+  Import took 0.041068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.776010 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c47f5b415e971296f55a327292bb7d') in 0.039576 seconds
+  Import took 0.042451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.765365 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41b67424c748cfb53f48be0bfc90638') in 0.039503 seconds
+  Import took 0.052398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.557672 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf193e6a1ef635efcff512c73ef76b6') in 0.038934 seconds
+  Import took 0.041663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.370326 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1a8abb34e7dac83beab2c0b9a16c31') in 0.038909 seconds
+  Import took 0.041626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.753759 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbba39b0808a45a0fdb75725af331b2') in 0.039755 seconds
+  Import took 0.042594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.037454 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17541b18fb7149e36f1872c493e3a99a') in 0.038789 seconds
+  Import took 0.041547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.878787 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14a8d76c2ed67b497db338e1210e1818') in 0.039841 seconds
+  Import took 0.042628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.608543 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1ff7421139f934c82d1bc253e2ee19') in 0.040029 seconds
+  Import took 0.042844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.975270 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec558ea703f7a1568c9331196369be2') in 0.039715 seconds
+  Import took 0.042590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.593616 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c047d8640a3b28c648ebc9418681575') in 0.039673 seconds
+  Import took 0.042442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.044970 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa428b5d91d03f53c7d91c887b763c8') in 0.039123 seconds
+  Import took 0.041896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.601752 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8a733279abf2960e448c11398cc1dc') in 0.040886 seconds
+  Import took 0.043844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.776359 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a931d46075b450321f0f1ed9cc732c4e') in 0.040378 seconds
+  Import took 0.043272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.423410 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81395c56710d373920bcce041c00078') in 0.039729 seconds
+  Import took 0.042550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.786280 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8420da1481ad7dc4f7929cdab6f727') in 0.038911 seconds
+  Import took 0.041670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.850385 seconds.
+  path: Assets/Prefabs/ely_k_atienza.prefab
+  artifactKey: Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/ely_k_atienza.prefab using Guid(a95153416350fc444ae6d020f08f425b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee4c2640b05caf5e79698951a085753') in 0.040058 seconds
+  Import took 0.042904 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000455 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.527 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.5 MB.
+System memory in use after: 77.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1599.
+Total: 1.087400 ms (FindLiveObjects: 0.093800 ms CreateObjectMapping: 0.027200 ms MarkObjects: 0.917800 ms  DeleteObjects: 0.047900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000532 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.870 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 77.5 MB.
+System memory in use after: 77.6 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1601.
+Total: 1.918100 ms (FindLiveObjects: 0.134800 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.690900 ms  DeleteObjects: 0.055200 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

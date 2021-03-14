@@ -18,6 +18,8 @@ public class Player : MonoBehaviour
     private Vector3 startPos;
     private Vector3 mousePos;
 
+    public bool isDead;
+
     [Header("Weapons")]
     public Weapon weapon;
 
@@ -32,6 +34,7 @@ public class Player : MonoBehaviour
         hasWeapon = true;
         equippedWeapon = GameObject.FindWithTag("Weapon");
         healthBar.SetMaxHealth(health.maxHealth);
+        isDead = false;
     }
 
     private void Update()
@@ -39,26 +42,30 @@ public class Player : MonoBehaviour
         animator.SetFloat("Forward", Input.GetAxis("Vertical"));
         animator.SetFloat("Right", Input.GetAxis("Horizontal")); //Set the animator bools of Forward and Right to the V/H axis
 
-        //Look at mouse
-        Plane playerPlane = new Plane(Vector3.up, transform.position);
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        float hitDist = 0.0f;
-        
-        if(playerPlane.Raycast(ray, out hitDist))
+        if (isDead == false)
         {
-            Vector3 targetPoint = ray.GetPoint(hitDist);
-            Quaternion targetRotation = Quaternion.LookRotation(targetPoint - transform.position);
-            targetRotation.x = 0;
-            targetRotation.z = 0;
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 7f * Time.deltaTime);
+            //Look at mouse
+            Plane playerPlane = new Plane(Vector3.up, transform.position);
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            float hitDist = 0.0f;
 
+            if (playerPlane.Raycast(ray, out hitDist))
+            {
+                Vector3 targetPoint = ray.GetPoint(hitDist);
+                Quaternion targetRotation = Quaternion.LookRotation(targetPoint - transform.position);
+                targetRotation.x = 0;
+                targetRotation.z = 0;
+                transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 7f * Time.deltaTime);
+
+            }
+
+            Vector3 input = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+            input = Vector3.ClampMagnitude(input, 1f);
+            input = transform.InverseTransformDirection(input);
+            animator.SetFloat("Right", input.x);
+            animator.SetFloat("Forward", input.z);
         }
-
-        Vector3 input = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
-        input = Vector3.ClampMagnitude(input, 1f);
-        input = transform.InverseTransformDirection(input);
-        animator.SetFloat("Right", input.x);
-        animator.SetFloat("Forward", input.z);
+        
 
         //Sprinting
         if (Input.GetKey(KeyCode.LeftShift))
