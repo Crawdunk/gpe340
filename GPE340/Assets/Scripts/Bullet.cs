@@ -4,38 +4,36 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+
     public float fireSpeed;
+    public int damageDone;
     public float lifespan = 1.5f;
 
     private Rigidbody rb;
-
-    public int damageDone;
 
     void Start()
     {
         Destroy(gameObject, lifespan);
     }
 
+
     void Update()
     {
-
+        //Move Bullet Forward
         transform.position += transform.forward * (fireSpeed * Time.deltaTime);
-
     }
 
     public void OnTriggerEnter(Collider other)
     {
-        //Get the object to hit
         GameObject otherObject = other.gameObject;
 
-        //If it has health, take damage.
         Health otherHealth = otherObject.GetComponent<Health>();
-        if(otherHealth != null)
+        if (otherHealth != null)
         {
             otherHealth.TakeDamage(damageDone);
         }
 
-        //Destroy the bullet
+
         Destroy(gameObject);
     }
-}      
+}

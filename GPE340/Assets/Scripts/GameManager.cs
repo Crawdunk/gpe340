@@ -1,38 +1,118 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject enemy;
-    public Vector3 enemySpawnPoint;
-    public bool enemyIsSpawned;
-    public int timeToRespawn;
+    public static GameManager Instance { get; private set; }
 
+    public bool isPaused;
+    public float lives;
+
+    public Player player;
+    public UIManager uiManager;
+
+    public TextMeshProUGUI livesCount;
+    public TextMeshProUGUI ammoCount;
+
+    public UnityEvent onPause;
+    public UnityEvent onResume;
+    public UnityEvent onLose;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        isPaused = false;
+        lives = 3;
+        player = GameObject.FindWithTag("Player").GetComponent<Player>();
+        uiManager = GetComponent<UIManager>();
+    }
+   
+    // Update is called once per frame
     void Update()
     {
-        if (enemyIsSpawned == false)
+        livesCount.text = "Lives: " + lives;
+
+        if (Input.GetKeyDown(KeyCode.P))
         {
-            StartCoroutine(SpawnAlien(timeToRespawn));
-            enemyIsSpawned = true;
+            Pause();
         }
-        else if (enemyIsSpawned == true)
+
+        if (isPaused && Input.GetKeyDown(KeyCode.Escape))
         {
-            StopCoroutine(SpawnAlien(timeToRespawn));
+            Unpause();
+        }
+
+        if (lives <= 0)
+        {
+            LoseGame();
+        }
+
+        if(player.weaponIsEquipped)
+        {
+            uiManager.ShowWeapon();
+         
+            if(player.equippedWeapon.isReloading)
+            {
+                ammoCount.text = "Reloading...";
+            }    
+            else
+            {
+                ammoCount.text = player.equippedWeapon.currentAmmo + "/" + player.equippedWeapon.maxAmmo;
+            }
+        }
+        else
+        {
+            uiManager.HideWeapon();
         }
     }
 
-    public IEnumerator SpawnAlien(int respawnTime)
+
+    //GAME CONTROLS
+    public void Pause()
     {
-        yield return new WaitForSeconds(respawnTime);
-        Instantiate(enemy, enemySpawnPoint, Quaternion.identity);
+        isPaused = true;
+        Time.timeScale = 0f;
+        Instance.onPause.Invoke();
     }
 
-    public IEnumerator KillAlien()
+    public void Unpause()
     {
-        Destroy(GameObject.FindWithTag("Enemy"));
-        enemyIsSpawned = false;
-        yield break;
+        isPaused = false;
+        Time.timeScale = 1f;
+        Instance.onResume.Invoke();
     }
 
+    public void LoseGame()
+    {
+        isPaused = true;
+        Time.timeScale = 0f;
+        Instance.onLose.Invoke();
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(0);
+    }
+
+    public void Respawn()
+    {
+        Pause();
+    }
 }
+

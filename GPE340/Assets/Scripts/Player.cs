@@ -4,52 +4,48 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Player : MonoBehaviour
+public class Player : WeaponAgent
 {
+    [Header("Movement Settings")]
     [SerializeField, Tooltip("The max speed of the player")]
-    private float speed;
-    public bool hasWeapon;
-    public GameObject equippedWeapon;
-    public Health health;
-    public HealthBar healthBar;
-    private Animator animator;
+    public float speed;
 
+    [Header("Health Settings")]
+    [SerializeField, Tooltip("Health Bar")]
+    public HealthBar healthBar;
+    public Health health;
+
+    private Animator animator;
     private Vector3 targetPos; //Set all this stuff
     private Vector3 startPos;
     private Vector3 mousePos;
 
-    public bool isDead;
-
-    [Header("Weapons")]
-    public Weapon weapon;
-
+    public GameManager gm;
 
     private void Awake()
     {
         animator = GetComponent<Animator>(); //Grab the animator on our player
+        health = GetComponent<Health>();
+        gm = GameObject.FindObjectOfType<GameManager>();
     }
 
     private void Start()
     {
-        hasWeapon = true;
-        equippedWeapon = GameObject.FindWithTag("Weapon");
-        healthBar.SetMaxHealth(health.maxHealth);
-        isDead = false;
+        health.currentHealth = health.maxHealth;
+        healthBar.SetHealth(health.maxHealth);
     }
 
     private void Update()
     {
-        animator.SetFloat("Forward", Input.GetAxis("Vertical"));
-        animator.SetFloat("Right", Input.GetAxis("Horizontal")); //Set the animator bools of Forward and Right to the V/H axis
+        if (gm.isPaused)
+            return;
 
-        if (isDead == false)
-        {
-            //Look at mouse
-            Plane playerPlane = new Plane(Vector3.up, transform.position);
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            float hitDist = 0.0f;
-
-            if (playerPlane.Raycast(ray, out hitDist))
+        //Look at mouse
+        Plane playerPlane = new Plane(Vector3.up, transform.position);
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        float hitDist = 0.0f; //Grab a plane where the player is and a ray where the mouse is located
+        
+        if (playerPlane.Raycast(ray, out hitDist))
             {
                 Vector3 targetPoint = ray.GetPoint(hitDist);
                 Quaternion targetRotation = Quaternion.LookRotation(targetPoint - transform.position);
@@ -57,62 +53,41 @@ public class Player : MonoBehaviour
                 targetRotation.z = 0;
                 transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 7f * Time.deltaTime);
 
-            }
+            }//Rotate towards the direction of the ray created before
 
-            Vector3 input = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
-            input = Vector3.ClampMagnitude(input, 1f);
-            input = transform.InverseTransformDirection(input);
-            animator.SetFloat("Right", input.x);
-            animator.SetFloat("Forward", input.z);
-        }
-        
+        Vector3 input = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+        input = Vector3.ClampMagnitude(input, 1f); //Lock the player from rotating within a certain area and making it so the player doesn't move towards rotation angle
+        input = transform.InverseTransformDirection(input);
+        animator.SetFloat("Right", input.x);
+        animator.SetFloat("Forward", input.z);
 
         //Sprinting
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            //Up the speed of movement when sprinting
-            speed = 4f;
             animator.SetBool("isSprinting", true);
+            speed = 4f;                        
         }
         else
         {
-            //When not h olding lower the speed and set sprinting to false
-            speed = 2f;
             animator.SetBool("isSprinting", false);
+            speed = 2f;
         }
 
-        if (health.currentHealth >= 100)
+        //Unequip Weapon
+        if (Input.GetKeyDown(KeyCode.V))
         {
-            health.currentHealth = 100;
-            healthBar.SetMaxHealth(health.maxHealth);
+            base.UnequipWeapon();
         }
-
-        if (health.currentHealth <= 0)
-        {
-            SceneManager.LoadScene(0);
-            Debug.Log("You Died.");
-        }
-
-        if (Input.GetButtonDown("Fire1"))
-        {
-            weapon.AttackStart();
-        }
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            health.TakeDamage(10);
-        }
-
-    }
+    }    
 
     public void OnAnimatorIK(int layerIndex)
     {
-        if (hasWeapon == true)
+        if (weaponIsEquipped == true)
         {
-            animator.SetIKPosition(AvatarIKGoal.LeftHand, weapon.leftHandPoint.position);
-            animator.SetIKPosition(AvatarIKGoal.RightHand, weapon.rightHandPoint.position);
-            animator.SetIKRotation(AvatarIKGoal.LeftHand, weapon.leftHandPoint.rotation);
-            animator.SetIKRotation(AvatarIKGoal.RightHand, weapon.rightHandPoint.rotation);
+            animator.SetIKPosition(AvatarIKGoal.LeftHand, equippedWeapon.leftHandPoint.position);
+            animator.SetIKPosition(AvatarIKGoal.RightHand, equippedWeapon.rightHandPoint.position);
+            animator.SetIKRotation(AvatarIKGoal.LeftHand, equippedWeapon.leftHandPoint.rotation);
+            animator.SetIKRotation(AvatarIKGoal.RightHand, equippedWeapon.rightHandPoint.rotation);
 
             animator.SetIKPositionWeight(AvatarIKGoal.LeftHand, 1f);
             animator.SetIKPositionWeight(AvatarIKGoal.RightHand, 1f);
@@ -120,5 +95,10 @@ public class Player : MonoBehaviour
             animator.SetIKRotationWeight(AvatarIKGoal.RightHand, 1f);
         }
         
+    }
+
+    void LateUpdate()
+    {
+        healthBar.SetHealth(health.currentHealth);
     }
 }

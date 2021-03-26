@@ -2,24 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pickup : MonoBehaviour
+public abstract class Pickup : MonoBehaviour
 {
+    [SerializeField, Tooltip("Lifespan of the pickup")]
+    public float lifespan;
+    [SerializeField, Tooltip("The rotate speed of the pickup object")]
+    public float rotateSpeed;
 
-    public Health health;
+    public GameManager gm;
 
-    void Update()
+    private void Awake()
     {
-        transform.Rotate(15,0,0);
+        gm = GameObject.FindObjectOfType<GameManager>();
     }
 
-    void OnTriggerEnter(Collider collider)
+    protected virtual void OnTriggerEnter(Collider collider)
     {
-
-        if (collider.tag == "Player")
+        Player player = collider.GetComponent<Player>();
+        if (player)
         {
-            gameObject.SetActive(false);
-            health.Heal(40);
+            OnPickUp(player);
         }
-        
+    }
+
+    protected virtual void OnPickUp(Player player)
+    {
+        Destroy(gameObject);
     }
 }
