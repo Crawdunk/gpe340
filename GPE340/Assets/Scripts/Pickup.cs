@@ -9,13 +9,6 @@ public abstract class Pickup : MonoBehaviour
     [SerializeField, Tooltip("The rotate speed of the pickup object")]
     public float rotateSpeed;
 
-    public GameManager gm;
-
-    private void Awake()
-    {
-        gm = GameObject.FindObjectOfType<GameManager>();
-    }
-
     protected virtual void OnTriggerEnter(Collider collider)
     {
         Player player = collider.GetComponent<Player>();

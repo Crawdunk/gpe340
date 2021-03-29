@@ -8,6 +8,7 @@ TagManager:
   - Weapon
   - Enemy
   - NavMesh
+  - Spawner
   layers:
   - Default
   - TransparentFX

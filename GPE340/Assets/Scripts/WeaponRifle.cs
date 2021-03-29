@@ -11,6 +11,10 @@ public class WeaponRifle : Weapon
     private bool isShootingFullAuto;
     public bool canShoot;
 
+    private AudioSource audio;
+    public AudioClip gunShot;
+    public AudioClip reload;
+
     public int damageDone;
 
     private Enemy enemy;
@@ -21,6 +25,7 @@ public class WeaponRifle : Weapon
     {
         enemy = GameObject.FindWithTag("Enemy").GetComponent<Enemy>();
         gm = GameObject.FindObjectOfType<GameManager>();
+        audio = GetComponent<AudioSource>();
     }
 
     public override void Start()
@@ -113,7 +118,9 @@ public class WeaponRifle : Weapon
     {
         if (Time.time >= nextShootTime)
         {
+            audio.clip = gunShot;
             GameObject myBullet = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
+            audio.Play();
             currentAmmo--;
             Bullet myBulletScript = myBullet.GetComponent<Bullet>();
 
@@ -125,8 +132,10 @@ public class WeaponRifle : Weapon
 
     private IEnumerator Reload()
     {
+        audio.clip = reload;
         isReloading = true;
-        yield return new WaitForSeconds(reloadTime);
+        audio.Play();
+        yield return new WaitForSeconds(audio.clip.length);
         currentAmmo = maxAmmo;
         isReloading = false;
             

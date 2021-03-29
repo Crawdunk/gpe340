@@ -7,6 +7,12 @@ public class WeaponPickup : Pickup
     public WeaponAgent weaponAgent;
     public Weapon weaponToEquip;
 
+    public GameManager gm;
+
+    void Awake()
+    {
+        gm = GameObject.FindObjectOfType<GameManager>();
+    }
 
     protected override void OnTriggerEnter(Collider collider)
     {

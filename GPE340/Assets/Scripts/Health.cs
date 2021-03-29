@@ -14,6 +14,7 @@ public class Health : MonoBehaviour
     private bool dropIsSpawned;
 
     public GameManager gm;
+    public EnemySpawner enemySpawn;
 
     void Awake()
     {
@@ -27,6 +28,7 @@ public class Health : MonoBehaviour
         maxHealth = 100;
         currentHealth = maxHealth;
         gm = GameObject.FindObjectOfType<GameManager>();
+        enemySpawn = GameObject.FindWithTag("Spawner").GetComponent<EnemySpawner>();
     }
 
     void Update()
@@ -52,7 +54,7 @@ public class Health : MonoBehaviour
         Ragdoll();
         Destroy(agent.equippedWeapon);
         Destroy(gameObject, 5);
-        
+
         if (drops != null && dropIsSpawned == false)
         {
             drops.DropRandomItem();

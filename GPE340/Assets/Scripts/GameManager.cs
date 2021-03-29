@@ -99,15 +99,16 @@ public class GameManager : MonoBehaviour
         Instance.onLose.Invoke();
     }
 
-    public void QuitGame()
+    public void QuitToMenu()
     {
-        Application.Quit();
+        Time.timeScale = 1;
+        SceneManager.LoadScene(0);
     }
 
     public void RestartGame()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void Respawn()

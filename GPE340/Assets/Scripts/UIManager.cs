@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour
     public GameObject pauseMenu;
     public GameObject loseMenu;
     public GameObject weaponDisplay; //Grab different UI elements
+    public GameObject settingsMenu;
 
     void Start()
     {
@@ -42,4 +43,18 @@ public class UIManager : MonoBehaviour
     {
         weaponDisplay.SetActive(false); //deactivate weapon display
     }
+
+    public void ShowSettingsMenu()
+    {
+        pauseMenu.SetActive(false);
+        settingsMenu.SetActive(true);
+    }
+
+    public void HideSettingsMenu()
+    {
+        pauseMenu.SetActive(true);
+        settingsMenu.SetActive(false);
+    }
+
+    
 }
